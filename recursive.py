@@ -1,14 +1,19 @@
 # type.py
 
-# string
+# string reverse
+
+import sys
 
 a = "I want a girl friend please"
 
 def reverse(n):
     if n < 0:
         return
-    print(a[n])  
+    sys.stdout.write(a[n])
     reverse(n-1)
-    print(a[n])        
+    if n==0:
+        sys.stdout.write("\n")
+    sys.stdout.write(a[n])     
 
 reverse(len(a)-1)
+sys.stdout.write("\n")
