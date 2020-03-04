@@ -20,4 +20,8 @@
   + if statement
   + while statement
   + for statement
+  
 (...ing)
+
+## Reference
+[위키 독스 - 점프 투 파이썬!](https://wikidocs.net/book/1).
