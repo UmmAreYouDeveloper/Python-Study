@@ -1,0 +1,8 @@
+f = open('test.txt','r')
+s = f.read()
+s = s.replace('python','java')
+print(s)
+f.close()
+f = open('test.txt','w')
+f.write(s)
+f.close()
